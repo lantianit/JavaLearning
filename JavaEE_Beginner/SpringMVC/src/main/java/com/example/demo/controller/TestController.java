@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Scanner;
 import java.util.UUID;
 
 @RequestMapping("/test") // 路由注册
@@ -54,6 +55,11 @@ public class TestController {
         return "开始时间：" + startTime + " | 结束时间：23" + endTime;
     }
 
+    public static void main(String[] args) {
+
+        
+
+    }
     @RequestMapping("/login/{username}/{password}")
     public String login(@PathVariable("username") String username,
                         @PathVariable("password") String password) {
