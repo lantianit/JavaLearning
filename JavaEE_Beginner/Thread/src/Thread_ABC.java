@@ -1,4 +1,12 @@
-public class Demo {
+/**
+ * @Author zh
+ * @Date 2023/7/17 10:03
+ * @PackageName:PACKAGE_NAME
+ * @ClassName: Thread_ABC
+ * @Description: TODO
+ * @Version 1.0
+ */
+public class Thread_ABC {
     private static Object locker1 = new Object();
     private static Object locker2 = new Object();
     private static Object locker3 = new Object();
@@ -62,4 +70,6 @@ public class Demo {
             locker1.notify();
         }
     }
+
+
 }
