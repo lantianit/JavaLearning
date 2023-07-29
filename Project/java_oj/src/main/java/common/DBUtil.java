@@ -16,7 +16,10 @@ public class DBUtil {
     private static final String PASSWORD = "qwer@wu.888";
 
     private static volatile DataSource dataSource = null;
-    .
+
+
+
+
     private static DataSource getDataSource() {
         if (dataSource == null) {
             synchronized (DBUtil.class) {
