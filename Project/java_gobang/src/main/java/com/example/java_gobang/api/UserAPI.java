@@ -37,16 +37,13 @@ public class UserAPI {
     @PostMapping("/register")
     @ResponseBody
     public Object register(String username, String password) {
-        try {
+
             User user = new User();
             user.setUsername(username);
             user.setPassword(password);
             userMapper.insert(user);
             return user;
-        } catch (org.springframework.dao.DuplicateKeyException e) {
-            User user = new User();
-            return user;
-        }
+
     }
 
     @GetMapping("/userInfo")
