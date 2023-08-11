@@ -28,6 +28,7 @@ public class GameAPI extends TextWebSocketHandler {
     @Resource
     private UserMapper userMapper;
 
+
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
         GameReadyResponse resp = new GameReadyResponse();

@@ -201,7 +201,6 @@ public class Room {
         return 0;
     }
 
-
     public int getWhiteUser() {
         return whiteUser;
     }
