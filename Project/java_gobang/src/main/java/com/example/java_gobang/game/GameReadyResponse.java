@@ -10,6 +10,8 @@ public class GameReadyResponse {
     private int thatUserId;
     private int whiteUser;
 
+
+
     public String getMessage() {
         return message;
     }
