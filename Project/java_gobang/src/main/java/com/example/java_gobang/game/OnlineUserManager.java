@@ -21,6 +21,10 @@ public class OnlineUserManager {
         gameHall.remove(userId);
     }
 
+    public static void main(String[] args) {
+
+    }
+
     public WebSocketSession getFromGameHall(int userId) {
         return gameHall.get(userId);
     }

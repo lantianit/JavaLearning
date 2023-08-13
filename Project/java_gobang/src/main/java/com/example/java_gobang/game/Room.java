@@ -50,6 +50,7 @@ public class Room {
     // 要做的事情:
     public void putChess(String reqJson) throws IOException {
         // 1. 记录当前落子的位置.
+        System.out.println();
         GameRequest request = objectMapper.readValue(reqJson, GameRequest.class);
         GameResponse response = new GameResponse();
         // 当前这个子是玩家1 落的还是玩家2 落的. 根据这个玩家1 和 玩家2 来决定往数组中是写 1 还是 2
