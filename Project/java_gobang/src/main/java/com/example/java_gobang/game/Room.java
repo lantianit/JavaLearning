@@ -46,9 +46,12 @@ public class Room {
 
     private UserMapper userMapper;
 
+
+
     // 通过这个方法来处理一次落子操作.
     // 要做的事情:
     public void putChess(String reqJson) throws IOException {
+
         // 1. 记录当前落子的位置.
         System.out.println();
         GameRequest request = objectMapper.readValue(reqJson, GameRequest.class);
@@ -153,14 +156,15 @@ public class Room {
             }
         }
 
+
         // 2. 检查所有列
         for (int r = row - 4; r <= row; r++) {
             try {
                 if (board[r][col] == chess
-                    && board[r + 1][col] == chess
-                    && board[r + 2][col] == chess
-                    && board[r + 3][col] == chess
-                    && board[r + 4][col] == chess) {
+                        && board[r + 1][col] == chess
+                        && board[r + 2][col] == chess
+                        && board[r + 3][col] == chess
+                        && board[r + 4][col] == chess) {
                     return chess == 1 ? user1.getUserId() : user2.getUserId();
                 }
             } catch (ArrayIndexOutOfBoundsException e) {
@@ -172,10 +176,10 @@ public class Room {
         for (int r = row - 4, c = col - 4; r <= row && c <= col; r++, c++) {
             try {
                 if (board[r][c] == chess
-                    && board[r + 1][c + 1] == chess
-                    && board[r + 2][c + 2] == chess
-                    && board[r + 3][c + 3] == chess
-                    && board[r + 4][c + 4] == chess) {
+                        && board[r + 1][c + 1] == chess
+                        && board[r + 2][c + 2] == chess
+                        && board[r + 3][c + 3] == chess
+                        && board[r + 4][c + 4] == chess) {
                     return chess == 1 ? user1.getUserId() : user2.getUserId();
                 }
             } catch (ArrayIndexOutOfBoundsException e) {
@@ -187,10 +191,10 @@ public class Room {
         for (int r = row - 4, c = col + 4; r <= row && c >= col; r++, c--) {
             try {
                 if (board[r][c] == chess
-                    && board[r + 1][c - 1] == chess
-                    && board[r + 2][c - 2] == chess
-                    && board[r + 3][c - 3] == chess
-                    && board[r + 4][c - 4] == chess) {
+                        && board[r + 1][c - 1] == chess
+                        && board[r + 2][c - 2] == chess
+                        && board[r + 3][c - 3] == chess
+                        && board[r + 4][c - 4] == chess) {
                     return chess == 1 ? user1.getUserId() : user2.getUserId();
                 }
             } catch (ArrayIndexOutOfBoundsException e) {
