@@ -21,7 +21,7 @@ public class DBUtil {
         if (dataSource == null) {
             synchronized (DBUtil.class) {
                 if (dataSource == null) {
-                    MysqlDataSource mysqlDataSource = new MysqlDataSource();
+                    MysqlDataSource mysqlDataSource = new MysqlDataSource();//
                     mysqlDataSource.setURL(URL);
                     mysqlDataSource.setUser(USERNAME);
                     mysqlDataSource.setPassword(PASSWORD);
