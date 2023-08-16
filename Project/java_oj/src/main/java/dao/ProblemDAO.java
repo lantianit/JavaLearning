@@ -15,6 +15,7 @@ import java.util.List;
 // 3. 查询题目列表
 // 4. 查询题目详情
 public class ProblemDAO {
+
     public void insert(Problem problem) {
         Connection connection = null;
         PreparedStatement statement = null;
