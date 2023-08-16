@@ -14,11 +14,16 @@ import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 // 通过这个类来处理匹配功能中的 websocket 请求
 @Component
 public class MatchAPI extends TextWebSocketHandler {
     private ObjectMapper objectMapper = new ObjectMapper();
+
+    List<Integer> s = new ArrayList<>();
 
     @Autowired
     private OnlineUserManager onlineUserManager;
