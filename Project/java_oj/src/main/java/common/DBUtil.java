@@ -13,7 +13,7 @@ public class DBUtil {
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/oj_database?characterEncoding=utf8&useSSL=false";
     private static final String USERNAME = "root";
     // private static final String PASSWORD = "2222";
-    private static final String PASSWORD = "qwer@wu.888";
+    private static final String PASSWORD = "";
 
     private static volatile DataSource dataSource = null;
 

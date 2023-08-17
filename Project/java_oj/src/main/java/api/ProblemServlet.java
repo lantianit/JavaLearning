@@ -35,6 +35,6 @@ public class ProblemServlet extends HttpServlet {
             String respString = objectMapper.writeValueAsString(problem);
             resp.getWriter().write(respString);
         }
-
     }
+
 }
