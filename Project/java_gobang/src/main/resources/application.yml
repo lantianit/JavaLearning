@@ -8,6 +8,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/**Mapper.xml
 
+
 logging:
   pattern:
     console: "[%-5level] - %msg%n"
