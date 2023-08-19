@@ -12,3 +12,6 @@ mybatis:
 logging:
   pattern:
     console: "[%-5level] - %msg%n"
+
+server:
+  port: 9090
