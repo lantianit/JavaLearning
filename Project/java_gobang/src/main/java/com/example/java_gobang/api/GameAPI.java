@@ -14,6 +14,7 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.lang.reflect.Array;
 
 @Component
 public class GameAPI extends TextWebSocketHandler {
