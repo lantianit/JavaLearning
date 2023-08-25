@@ -11,5 +11,4 @@ public class MatchRequest {
     public void setMessage(String message) {
         this.message = message;
     }
-
 }

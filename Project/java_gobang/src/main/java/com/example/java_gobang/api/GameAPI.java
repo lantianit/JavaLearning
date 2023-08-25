@@ -14,7 +14,6 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 import javax.annotation.Resource;
 import java.io.IOException;
-import java.lang.reflect.Array;
 
 @Component
 public class GameAPI extends TextWebSocketHandler {
@@ -29,7 +28,6 @@ public class GameAPI extends TextWebSocketHandler {
     @Resource
     private UserMapper userMapper;
 
-
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
         GameReadyResponse resp = new GameReadyResponse();
@@ -42,8 +40,6 @@ public class GameAPI extends TextWebSocketHandler {
             session.sendMessage(new TextMessage(objectMapper.writeValueAsString(resp)));
             return;
         }
-
-
 
         // 2. 判定当前用户是否已经进入房间. (拿着房间管理器进行查询)
         Room room = roomManager.getRoomByUserId(user.getUserId());
@@ -133,7 +129,7 @@ public class GameAPI extends TextWebSocketHandler {
 
         // 2. 根据玩家 id 获取到房间对象
         Room room = roomManager.getRoomByUserId(user.getUserId());
-         // 3. 通过 room 对象来处理这次具体的请求
+        // 3. 通过 room 对象来处理这次具体的请求
         room.putChess(message.getPayload());
     }
 
