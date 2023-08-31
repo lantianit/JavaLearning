@@ -69,6 +69,7 @@ public class UserController {
             // 参数有误
             return AjaxResult.fail(-1, "非法参数");
         }
+
         // redis 里面 key 对应的真是的验证码
         String redisCodeValue = (String) redisTemplate.opsForValue().get(userInfoVO.getCodeKey());
         if (!StringUtils.hasLength(redisCodeValue) || !redisCodeValue.equals(userInfoVO.getCheckCode())) {
