@@ -13,8 +13,7 @@ class A {
 }
 
 class B {
-    public static void main(String[] args) throws CloneNotSupportedException {
-        A a1 = new A(10);
-        A a2 = (A) a1.clone();
+    public static void main(String[] args) {
+        System.out.println();
     }
 }
