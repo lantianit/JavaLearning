@@ -7,7 +7,6 @@ import com.example.myblog.service.IUserService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
-
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper,UserInfo> implements IUserService {
 
