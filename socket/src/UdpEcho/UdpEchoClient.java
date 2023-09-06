@@ -1,7 +1,8 @@
+package UdpEcho;
+
 import java.io.IOException;
 import java.net.*;
 import java.util.Scanner;
-
 
 public class UdpEchoClient {
     private DatagramSocket socket = null;
