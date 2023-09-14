@@ -10,7 +10,6 @@ public class MyQueue {
 
     public Node head;//队列的头
     public Node tail;//队列的尾
-
     /**
      * 入队操作
      * @param val
