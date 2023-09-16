@@ -63,7 +63,7 @@ public class MessageServlet extends HttpServlet {
         Connection connection = dataSource.getConnection();
 
         // 3. 构造 SQL
-        String sql = "select * from message";
+        String sql = "select * from messages";
         PreparedStatement statement = connection.prepareStatement(sql);
 
         // 4. 执行 SQL
@@ -95,7 +95,7 @@ public class MessageServlet extends HttpServlet {
         Connection connection = dataSource.getConnection();
 
         // 3. 构造 SQL
-        String sql = "insert into message values(?, ?, ?)";
+        String sql = "insert into messages values(?, ?, ?)";
         PreparedStatement statement = connection.prepareStatement(sql);
         statement.setString(1, message.getFrom());
         statement.setString(2, message.getTo());

@@ -11,10 +11,10 @@ public class DBUtil {
             synchronized (DBUtil.class) {
                 if (dataSource == null) {
                     dataSource = new MysqlDataSource();
-                    ((MysqlDataSource)dataSource).setUrl("jdbc:mysql://127.0.0.1:3306/java105?characterEncoding=utf8&useSSL=false");
+                    ((MysqlDataSource)dataSource).setUrl("jdbc:mysql://127.0.0.1:3306/MessageWall?characterEncoding=utf8&useSSL=false");
                     ((MysqlDataSource)dataSource).setUser("root");
                     // 我这里的数据库是没密码的.
-                    ((MysqlDataSource)dataSource).setPassword("");
+                    ((MysqlDataSource)dataSource).setPassword("123456");
                 }
             }
         }
