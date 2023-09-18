@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>博客列表</title>
+    <link rel="stylesheet" href="resources/css/common.css">
+    <link rel="stylesheet" href="resources/css/blog_list.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="resources/images/logo_003.jpg" alt="logo">
+        <!-- 中间位置占位 -->
+        <span>我的博客系统</span>
+        <div class="spacer"></div>
+        <a href="blog_list.html">主页</a>
+        <a href="blog_edit.html">写博客</a>
+        <a href="logout">注销</a>
+    </div>
+
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 个人信息 -->
+        <div class="left">
+            <div class="card">
+                <img src="resources/images/nz1.jpeg" class="avtar" alt="头像">
+                <h3></h3>
+                <a href="#">Github 地址</a>
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 内容区域 -->
+        <div class="right">
+            <!-- <div class="blog">
+                <div class="title">
+                    我的第一篇博客
+                </div>
+                <div class="datetime">
+                    2022-05-05 13:00:05
+                </div>
+                <div class="desc">
+                    欢迎大家来访问我的博客 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vitae fuga, numquam distinctio reiciendis atque sequi, adipisci recusandae placeat corrupti tenetur mollitia libero? Consequatur error reiciendis porro sunt molestias
+                    id?
+                </div>
+                <a href="#">查看全文 &gt; &gt;</a>
+            </div> -->
+
+        </div>
+    </div>
+    <!-- 引入jquery -->
+    <script src="resources/js/jquery-3.6.0.min.js"></script>
+    <script>
+        $.ajax({
+            url: 'blog',
+            type: 'get',
+            success: function (data, status) {
+                // 此处的data是服务器返回的响应，内容是blog集合转换成的Json字符串
+                // 由于content-Type是application/json类型，所以jquery会自动把数据转换成一个对象数组
+                buildBlogs(data);
+            },
+            error: function () {
+                // 这里是ajax请求失败时的回调
+                // 在这里可以定义请求失败后的处理方式
+                // 比如当服务器返回403时重定向到登录页面
+                location.assign('blog_login.html');
+            }
+        });
+
+        // 通过这个方法来构造页面
+        function buildBlogs(data) {
+            // 获取到右侧的父div
+            let rightDiv = document.querySelector('.right');
+
+            // data是上面ajax获取到服务器响应后传进来的结果
+            // 数组里每一条记录都对应着一篇博客
+            for (let blog of data) {
+                // 创建class="blog"的div
+                let blogDiv = document.createElement('div');
+                blogDiv.className = 'blog';
+                // 创建显示标题的div,并赋值
+                let titleDiv = document.createElement('div');
+                titleDiv.className = 'title';
+                titleDiv.innerHTML = blog.title;
+                blogDiv.appendChild(titleDiv);
+                // 创建显示时间的div
+                let timeDiv = document.createElement('div');
+                timeDiv.className = 'datetime';
+                timeDiv.innerHTML = formatDate(blog.postTime);
+                blogDiv.appendChild(timeDiv);
+                // 创建显示正文内容的div
+                let contentDiv = document.createElement('div');
+                contentDiv.className = 'desc';
+                contentDiv.innerHTML = blog.content;
+                blogDiv.appendChild(contentDiv);
+                // 创建a 标签
+                let detailA = document.createElement('a');
+                detailA.innerHTML = '查看全文 &gt; &gt;';
+                detailA.href = 'blog_detail.html?blogId=' + blog.blogId;
+                blogDiv.appendChild(detailA);
+
+                // 把新建的div添加到右侧的父div中
+                let rightDiv = document.querySelector('.right');
+                rightDiv.appendChild(blogDiv);
+            }
+
+        }
+
+        //格式化时间
+        function formatDate(dateStr) {
+            var date = new Date(dateStr);
+            //获取年月日，时间
+            var year = date.getFullYear();
+            var mon = (date.getMonth() + 1) < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
+            var data = date.getDate() < 10 ? "0" + (date.getDate()) : date.getDate();
+            var hour = date.getHours() < 10 ? "0" + (date.getHours()) : date.getHours();
+            var min = date.getMinutes() < 10 ? "0" + (date.getMinutes()) : date.getMinutes();
+            var seon = date.getSeconds() < 10 ? "0" + (date.getSeconds()) : date.getSeconds();
+
+            var newDate = year + "-" + mon + "-" + data + " " + hour + ":" + min + ":" + seon;
+            return newDate;
+        }
+
+        // 加载用户信息
+        $.ajax({
+            url: 'user',
+            type: 'get',
+            success: function(data, status){
+                changeUser(data);
+            }
+        });
+
+        function changeUser(data) {
+            let usernameEl = document.querySelector('.card h3');
+            usernameEl.innerHTML = data.username;
+        }
+    </script>
+</body>
+
+</html>

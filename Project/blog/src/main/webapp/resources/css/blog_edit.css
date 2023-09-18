@@ -1,0 +1,85 @@
+/* 博客编辑区 */
+
+.edit-container {
+    width: 1000px;
+    height: calc(100% - 50px);
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.edit-container .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-container .title input {
+    width: 895px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.edit-container .title input {
+    width: 895px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* 提交按钮用button标签时使用的样式 */
+.edit-container .title button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(245, 111, 10);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.edit-container .title button:active {
+    background-color: #666;
+}
+
+/* 提交按钮用input标签时使用的样式 */
+.edit-container .title #submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(245, 111, 10);
+    border: none;
+    outline: none;
+    color: white;
+	font-size: 1em;
+	font-weight: normal;
+	padding-left: 0;
+}
+
+.edit-container .title #submit:active {
+    background-color: #666;
+}
+
+
+/* 设置编辑区 */
+
+#editor {
+    border-radius: 10px;
+    /* 这个是设置整体的透明度，会影响子元素，
+    background-color只是设置了当前元素的背景，不会影响子元素 */
+    opacity: 80%;
+}
