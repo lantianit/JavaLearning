@@ -8,11 +8,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class AppConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginInterceptor())
-                .addPathPatterns("/**") // 拦截所有请求
-                .excludePathPatterns("/user/login") // 排除的url地址（不拦截的url地址）
-                .excludePathPatterns("/user/reg")
-                .excludePathPatterns("/**/*.html");
+//        registry.addInterceptor(new LoginInterceptor())
+//                .addPathPatterns("/**") // 拦截所有请求
+//                .excludePathPatterns("/user/login") // 排除的url地址（不拦截的url地址）
+//                .excludePathPatterns("/user/reg")
+//                .excludePathPatterns("/**/*.html");
     }
 
 //    @Override

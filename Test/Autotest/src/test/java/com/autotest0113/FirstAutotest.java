@@ -29,7 +29,9 @@ public class FirstAutotest {
         driver.quit();
     }
     public void methodTest() {
-        ChromeDriver driver = new ChromeDriver();
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        EdgeDriver driver = new EdgeDriver(options);
         driver.get("https://www.baidu.com");
         /////
 //        driver.findElement(By.cssSelector("#kwaaaaa"));
@@ -42,7 +44,7 @@ public class FirstAutotest {
         //Ñ¡ÔñÆ÷selector
 //        driver.findElement(By.cssSelector("#ssssssssu"));
         ///
-        driver.findElement(By.className("s-isindex-wrap"));
-        driver.quit();
+//        driver.findElement(By.className("s-isindex-wrap"));
+//        driver.quit();
     }
 }
