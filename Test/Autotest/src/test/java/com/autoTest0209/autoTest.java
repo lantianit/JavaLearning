@@ -16,6 +16,7 @@ import java.util.Set;
 public class autoTest {
     ChromeDriver driver = new ChromeDriver();
 
+
     public void baseConTrol() throws InterruptedException {
         driver.get("https://www.baidu.com");
         ///////
