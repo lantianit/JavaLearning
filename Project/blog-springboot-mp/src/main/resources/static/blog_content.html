@@ -86,57 +86,83 @@
     }
 
     // 初始化文章的详情信息
-    function initArtDetail() {
-        jQuery.ajax({
-            url: "/art/detail",
-            type: "GET",
-            data: {
-                "aid": aid
-            },
-            success: function (res) {
-                if (res.code == 200 && res.data != null && res.data.aid >= 0) {
-                    // 查询文章成功
-                    var art = res.data;
-                    jQuery("#title").html(art.title);
-                    jQuery("#createtime").html(art.createtime);
-                    jQuery("#rcount").html(art.rcount);
-                    initEdit(art.content); // 设置文章详情
-                    if (art.photo != null && art.photo != "") {
-                        jQuery("#photo").attr("src", art.photo);
-                    }
-                    jQuery("#nickname").html(art.nickname);
-                    jQuery("#artCount").html(art.artCount);
-                } else {
-                    alert("抱歉：操作失败，请重试！");
-                }
-            }
-        });
+    function initArtDetail(art) {
+        if (art == null || art.aid <= 0) {
+            alert("参数有误！");
+            return false;
+        }
+        // 查询文章成功
+        jQuery("#title").html(art.title);
+        jQuery("#createtime").html(art.createtime);
+        jQuery("#rcount").html(art.rcount);
+        initEdit(art.content); // 设置文章详情
+        if (art.photo != null && art.photo != "") {
+            jQuery("#photo").attr("src", art.photo);
+        }
+        jQuery("#nickname").html(art.nickname);
+        jQuery("#artCount").html(art.artCount);
+        // jQuery.ajax({
+        //     url: "/art/detail",
+        //     type: "GET",
+        //     data: {
+        //         "aid": aid
+        //     },
+        //     success: function (res) {
+        //         if (res.code == 200 && res.data != null && res.data.aid >= 0) {
+        //             // 查询文章成功
+        //             var art = res.data;
+        //             jQuery("#title").html(art.title);
+        //             jQuery("#createtime").html(art.createtime);
+        //             jQuery("#rcount").html(art.rcount);
+        //             initEdit(art.content); // 设置文章详情
+        //             if (art.photo != null && art.photo != "") {
+        //                 jQuery("#photo").attr("src", art.photo);
+        //             }
+        //             jQuery("#nickname").html(art.nickname);
+        //             jQuery("#artCount").html(art.artCount);
+        //         } else {
+        //             alert("抱歉：操作失败，请重试！");
+        //         }
+        //     }
+        // });
     }
 
     // 加载评论列表
-    function initComment() {
-        jQuery.ajax({
-            url: "/comment/list",
-            type: "GET",
-            data: {
-                "aid": aid
-            },
-            success: function (res) {
-                if (res.code == 200 && res.data != null) {
-                    var commentListHtml = "";
-                    for (let i = 0; i < res.data.length; i++) {
-                        var comment = res.data[i];
-                        commentListHtml += '<div style="margin-bottom: 26px;">';
-                        commentListHtml += comment.nickname + '：' + comment.content;
-                        commentListHtml += '<br>';
-                        commentListHtml += '<a class="comment_del_class" style="display: none;" href="javascript:del(' +
-                            comment.cid + ')">删除</a>';
-                        commentListHtml += '</div>';
-                    }
-                    jQuery("#commentlist").html(commentListHtml);
-                }
-            }
-        });
+    function initComment(commentList) {
+        var commentListHtml = "";
+        for (let i = 0; i < commentList.length; i++) {
+            var comment = commentList[i];
+            commentListHtml += '<div style="margin-bottom: 26px;">';
+            commentListHtml += comment.nickname + '：' + comment.content;
+            commentListHtml += '<br>';
+            commentListHtml += '<a class="comment_del_class" style="display: none;" href="javascript:del(' +
+                comment.cid + ')">删除</a>';
+            commentListHtml += '</div>';
+        }
+        jQuery("#commentlist").html(commentListHtml);
+        // jQuery("#commentlist").html(commentListHtml);
+        // jQuery.ajax({
+        //     url: "/comment/list",
+        //     type: "GET",
+        //     data: {
+        //         "aid": aid
+        //     },
+        //     success: function (res) {
+        //         if (res.code == 200 && res.data != null) {
+        //             var commentListHtml = "";
+        //             for (let i = 0; i < res.data.length; i++) {
+        //                 var comment = res.data[i];
+        //                 commentListHtml += '<div style="margin-bottom: 26px;">';
+        //                 commentListHtml += comment.nickname + '：' + comment.content;
+        //                 commentListHtml += '<br>';
+        //                 commentListHtml += '<a class="comment_del_class" style="display: none;" href="javascript:del(' +
+        //                     comment.cid + ')">删除</a>';
+        //                 commentListHtml += '</div>';
+        //             }
+        //             jQuery("#commentlist").html(commentListHtml);
+        //         }
+        //     }
+        // });
     }
 
     // 更新访问量
@@ -172,35 +198,56 @@
     }
 
     // 获取当前登录的用户
-    function getSessUser() {
-        jQuery.ajax({
-            url: "/user/getsess",
-            type: "GET",
-            data: {},
-            success: function (res) {
-                if (res.code == 200 && res.data != null && res.data.uid >= 0) {
-                    // 当前用户已经登录
-                    islogin = true;
-                    jQuery("#comment_login_name").html(res.data.nickname);
-                    // 判断当前文章是否是当前登录用户发表的
-                    isArtByMe(aid);
-                } else {
-                    // 当前用户未登录
-                }
-            }
-        });
+    function getSessUser(userinfo) {
+        if (userinfo != null && userinfo.uid >= 0) {
+            // 当前用户已经登录
+            islogin = true;
+            jQuery("#comment_login_name").html(
+                userinfo.nickname == "" ? userinfo.loginname : userinfo.nickname);
+            // 判断当前文章是否是当前登录用户发表的
+            isArtByMe(aid);
+        } else {
+            jQuery("#comment_login_name").html("请先登录");
+        }
+        // jQuery.ajax({
+        //     url: "/user/getsess",
+        //     type: "GET",
+        //     data: {},
+        //     success: function (res) {
+        //         if (res.code == 200 && res.data != null && res.data.uid >= 0) {
+        //             // 当前用户已经登录
+        //             islogin = true;
+        //             jQuery("#comment_login_name").html(res.data.nickname);
+        //             // 判断当前文章是否是当前登录用户发表的
+        //             isArtByMe(aid);
+        //         } else {
+        //             // 当前用户未登录
+        //         }
+        //     }
+        // });
     }
 
     // 总的初始化页面
     function initPage() {
-        // 初始化文章详情
-        initArtDetail();
-        // 加载评论列表
-        initComment();
-        // 更新访问量
-        updateCount();
-        // 查询当前登录用户的信息
-        getSessUser();
+        // 执行总的详情页初始化
+        jQuery.ajax({
+            url: "/art/total_init",
+            type: "POST",
+            data: {
+                "aid": aid
+            },
+            success: function (res) {
+                if (res.code == 200 && res.data != null) {
+                    // 初始化文章详情
+                    initArtDetail(res.data.articleinfo);
+                    // 加载评论列表
+                    initComment(res.data.commentList);
+                    // 查询当前登录用户的信息
+                    getSessUser(res.data.userinfo);
+                }
+            }
+        });
+
     }
 
     initPage();

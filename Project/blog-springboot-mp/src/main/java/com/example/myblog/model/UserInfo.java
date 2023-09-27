@@ -1,10 +1,8 @@
 package com.example.myblog.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.example.myblog.model.vo.UserInfoVO;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,7 +18,7 @@ import java.io.Serializable;
 public class UserInfo implements Serializable {
     @Serial
     private static final long serialVersionUID = 6259842500624893439L;
-    @TableId(type= IdType.AUTO)
+    @TableId(type = IdType.AUTO)
     private long uid;
     private String loginname;
     private String nickname;
@@ -28,5 +26,4 @@ public class UserInfo implements Serializable {
     private String github;
     private String photo;
     private int state;
-
 }

@@ -22,6 +22,4 @@ public class UserServiceImpl extends ServiceImpl<UserMapper,UserInfo> implements
     public UserInfo getUserByLoginName(String loginname) {
         return userMapper.getUserByLoginName(loginname);
     }
-
-
 }

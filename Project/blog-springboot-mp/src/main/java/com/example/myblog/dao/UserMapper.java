@@ -15,3 +15,14 @@ public interface UserMapper extends BaseMapper<UserInfo> {
     UserInfo getUserByLoginName(@Param("loginname")String name);
 
 }
+
+
+
+
+
+
+
+
+
+
+

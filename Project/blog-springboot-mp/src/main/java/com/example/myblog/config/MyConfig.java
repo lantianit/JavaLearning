@@ -1,6 +1,5 @@
 package com.example.myblog.config;
 
-import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -10,8 +9,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class MyConfig implements WebMvcConfigurer {
-    @Resource
+
+    @Autowired
     private LoginInterceptor loginInterceptor;
+
     @Value("${imagepath}")
     private String imagepath;
 
@@ -35,16 +36,19 @@ public class MyConfig implements WebMvcConfigurer {
                 .excludePathPatterns("/img/**")
                 .excludePathPatterns("/image/**")
                 .excludePathPatterns("/js/**");
+
     }
 
 
     /**
      * 映射图片路径
+     *
      * @param registry
      */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/image/**").addResourceLocations("file:" + imagepath);
+
     }
 }
 
