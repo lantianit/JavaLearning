@@ -7,6 +7,9 @@ import lombok.Setter;
 import java.io.Serial;
 import java.io.Serializable;
 
+/**
+ *
+ */
 @Setter
 @Getter
 public class CommentInfoVO extends CommentInfo implements Serializable {

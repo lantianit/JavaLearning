@@ -17,9 +17,9 @@ import java.time.LocalDateTime;
 @Setter
 @Getter
 @TableName("articleinfo")
-public class ArticleInfo implements Serializable {
+class ArticleInfo implements Serializable {
     @Serial
-    private static final long serialVersionUID = -52722551515977433L;
+    private static final long serialVersionUID = -5849198667119918959L;
     @TableId(type = IdType.AUTO)
     private Long aid;
     private String title;
