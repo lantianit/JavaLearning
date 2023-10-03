@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="0" failures="0" name="TestFile" time="0" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2021.3.2"/>
+    <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_192\jre\bin"/>
     <property name="java.vm.version" value="25.192-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\gitee\JavaLearning\Project\java_oj"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\application\gitee\JavaLearning\Project\java_oj"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\gitee\JavaLearning\Project\java_oj"/>
+    <property name="user.dir" value="C:\application\gitee\JavaLearning\Project\java_oj"/>
     <property name="java.runtime.version" value="1.8.0_192-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_192\jre\lib\endorsed"/>
@@ -28,15 +28,15 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="maven.ext.class.path" value="C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\mingw64\bin;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\澶у\杞欢\;C:\Program Files\dotnet\;D:\JAVA\jdk1.8.0_192\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\vs code\mingw64\bin;F:\寰俊灏忕▼搴廫寰俊web寮�鍙戣�呭伐鍏穃dll;D:\JAVA\jdk1.8.0_192in;D:\JAVA\jdk1.8.0_192jre6in;&quot;C:\Windows\system32;C:\Windows&quot;;C:\Users\12109\AppData\Local\Microsoft\WindowsApps;D:\vs code\Microsoft VS Code\bin;D:\Fiddler;&quot;C:\Windows\system32;C:\Windows&quot;;F:\璋锋瓕\Google\Chrome\Application;;."/>
-    <property name="maven.conf" value="D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\application\JavaConfiguration\jdk-17\bin;C:\application\JavaConfiguration\git\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\12109\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="maven.repo.local" value="C:\Users\12109\.m2\repository"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\12109"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
@@ -44,11 +44,11 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="12109"/>
-    <property name="java.class.path" value="D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.class.path" value="C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\Java\jdk1.8.0_192\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 -s C:\Users\12109\.m2\settings.xml -Dmaven.repo.local=C:\Users\12109\.m2\repository package"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -57,7 +57,7 @@
     <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_192\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_192\jre\lib\resources.jar;D:\Java\jdk1.8.0_192\jre\lib\rt.jar;D:\Java\jdk1.8.0_192\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_192\jre\lib\jsse.jar;D:\Java\jdk1.8.0_192\jre\lib\jce.jar;D:\Java\jdk1.8.0_192\jre\lib\charsets.jar;D:\Java\jdk1.8.0_192\jre\lib\jfr.jar;D:\Java\jdk1.8.0_192\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\IEAD\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="maven.home" value="C:\application\JavaSoftware\IDEA\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
