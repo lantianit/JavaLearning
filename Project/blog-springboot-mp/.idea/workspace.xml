@@ -4,7 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.3 学习" />
+    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.3 学习">
+      <change afterPath="$PROJECT_DIR$/../java_gobang/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_gobang/src/main/resources/static/image/6a6f3dde98a4c68f3c480c6dcaef842.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/java_gobang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/readme-image/image-20220426114725995.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/readme-image/image-20220426185430865.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/readme-image/webp.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/DailyLearning/UdpEchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/DailyLearning/UdpEchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/DailyLearning/UdpTranslateServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/SearchDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/TcpEchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/TcpEchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/JavaGobangApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/api/GameAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/api/MatchAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/api/TestAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/api/UserAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/GameReadyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/GameRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/GameResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/MatchRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/MatchResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/Matcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/OnlineUserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/game/RoomManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/com/example/java_gobang/model/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/udpserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/resources/static/image/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/src/main/resources/static/image/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/resources/static/image/sky.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/src/main/resources/static/image/sky.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/DailyLearning/UdpEchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/DailyLearning/UdpEchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/DailyLearning/UdpTranslateServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/FileCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/com/example/java_gobang/JavaGobangApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/classes/com/example/java_gobang/JavaGobangApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/com/example/java_gobang/api/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/classes/com/example/java_gobang/api/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/static/image/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/classes/static/image/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/classes/static/image/sky.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/classes/static/image/sky.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/java_gobang-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/java_gobang-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/java_gobang-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋1-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋10-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋23-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋31-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋47-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋61-71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋72-74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/板书/网页五子棋75-84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_oj/readme.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

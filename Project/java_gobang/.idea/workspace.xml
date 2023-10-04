@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/6a6f3dde98a4c68f3c480c6dcaef842.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_gobang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme-image/image-20220426114725995.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme-image/image-20220426185430865.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme-image/webp.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLearning/UdpEchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLearning/UdpEchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLearning/UdpTranslateServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TcpEchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TcpEchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/JavaGobangApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/GameAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/MatchAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/TestAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/UserAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/GameReadyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/GameRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/GameResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/MatchRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/MatchResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/Matcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/OnlineUserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/game/RoomManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/model/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/udpserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/sky.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/image/sky.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DailyLearning/UdpEchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DailyLearning/UdpEchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DailyLearning/UdpTranslateServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/java_gobang/JavaGobangApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/java_gobang/JavaGobangApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/java_gobang/api/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/java_gobang/api/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/image/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/image/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/image/sky.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/image/sky.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java_gobang-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java_gobang-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/java_gobang-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋1-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋10-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋23-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋31-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋47-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋61-71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋72-74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/板书/网页五子棋75-84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_oj/readme.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2WHnnk6F8qX4OYKvnRa9QtUXIyy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/application/gitee/JavaLearning/Project/java_gobang",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JavaGobangApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java_gobang.JavaGobangApplication" />
+      <module name="java_gobang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java_gobang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaGobangApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="" />
+      <created>1696398543335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696398543335</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
