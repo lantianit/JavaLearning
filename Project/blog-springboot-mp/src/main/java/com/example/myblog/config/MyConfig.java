@@ -48,7 +48,8 @@ public class MyConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/image/**").addResourceLocations("file:" + imagepath);
-
+//这段代码意思就配置一个拦截器， 如果访问路径是addResourceHandler中的filepath 这个路径 那么就 映射到访问本地的addResourceLocations
+// 的参数的这个路径上，这样就可以让别人访问服务器的本地文件了，比如本地图片或者本地音乐视频什么的。
     }
 }
 

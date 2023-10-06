@@ -51,9 +51,15 @@ public class UserController {
             // 非法参数
             return AjaxResult.fail(-1, "非法参数");
         }
+        String redisCodeValue = (String) redisTemplate.opsForValue().get(userInfoVO.getCodeKey());
+        if (!StringUtils.hasLength(redisCodeValue) || !redisCodeValue.equals(userInfoVO.getCheckCode())) {
+            // 验证码不正确
+            return AjaxResult.fail(-1, "验证码错误");
+        }
+        // 清除 redis 中的验证码
+        redisTemplate.opsForValue().set(userInfoVO.getCodeKey(), "");
         // 密码加盐
         userInfoVO.setPassword(PasswordUtil.encrypt(userInfoVO.getPassword()));
-        // todo:1.2 验证验证码是否正确
         // 2.调用服务执行添加操作（添加到数据库）
         int result = userService.reg(userInfoVO);
         // 3.将执行结果返回给前端
