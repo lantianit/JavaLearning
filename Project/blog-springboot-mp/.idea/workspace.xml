@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.4 部署项目">
-      <change afterPath="$PROJECT_DIR$/src/main/java/t.java" afterDir="false" />
+    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.6 项目复习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/blog_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/blog_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myblog/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myblog/config/MyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/t.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696411412803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="10.6 项目复习">
+      <created>1696595220469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696595220469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +161,7 @@
     <MESSAGE value="10.2 学习" />
     <MESSAGE value="10.3 学习" />
     <MESSAGE value="10.4 部署项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.4 部署项目" />
+    <MESSAGE value="10.6 项目复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.6 项目复习" />
   </component>
 </project>
