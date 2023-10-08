@@ -77,6 +77,29 @@
     var islogin = false; // 是否登录
     var editormd;
 
+    // 总的初始化页面
+    function initPage() {
+        // 执行总的详情页初始化
+        jQuery.ajax({
+            url: "/art/total_init",
+            type: "POST",
+            data: {
+                "aid": aid
+            },
+            success: function (res) {
+                if (res.code == 200 && res.data != null) {
+                    // 初始化文章详情
+                    initArtDetail(res.data.articleinfo);
+                    // 加载评论列表
+                    initComment(res.data.commentList);
+                    // 查询当前登录用户的信息
+                    getSessUser(res.data.userinfo);
+                }
+            }
+        });
+
+    }
+
     function initEdit(md) {
         editormd = editormd.markdownToHTML("editorDiv", {
             markdown: md, // Also, you can dynamic set Markdown text
@@ -225,29 +248,6 @@
         //         }
         //     }
         // });
-    }
-
-    // 总的初始化页面
-    function initPage() {
-        // 执行总的详情页初始化
-        jQuery.ajax({
-            url: "/art/total_init",
-            type: "POST",
-            data: {
-                "aid": aid
-            },
-            success: function (res) {
-                if (res.code == 200 && res.data != null) {
-                    // 初始化文章详情
-                    initArtDetail(res.data.articleinfo);
-                    // 加载评论列表
-                    initComment(res.data.commentList);
-                    // 查询当前登录用户的信息
-                    getSessUser(res.data.userinfo);
-                }
-            }
-        });
-
     }
 
     initPage();
