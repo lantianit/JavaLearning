@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/blog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/blog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/classes/static/blog_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/classes/static/blog_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/myblog-springboot-mybatisplus-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/myblog-springboot-mybatisplus-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/TEST-com.example.myblog.MyblogSpringbootMybatisplusApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/TEST-com.example.myblog.MyblogSpringbootMybatisplusApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/TEST-com.example.myblog.controller.UserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/TEST-com.example.myblog.controller.UserControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/com.example.myblog.MyblogSpringbootMybatisplusApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/com.example.myblog.MyblogSpringbootMybatisplusApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/com.example.myblog.controller.UserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/target/surefire-reports/com.example.myblog.controller.UserControllerTest.txt" afterDir="false" />
+    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="10.8 完善项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,10 +81,20 @@
       <option name="presentableId" value="Default" />
       <updated>1696398543335</updated>
     </task>
+    <task id="LOCAL-00001" summary="10.8 完善项目">
+      <created>1696768988184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696768988184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="10.8 完善项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.8 完善项目" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

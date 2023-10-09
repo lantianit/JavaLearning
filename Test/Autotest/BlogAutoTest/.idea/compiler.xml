@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java104&amp;105_Autotest" />
-        <module name="Autotest" />
+        <module name="BlogAutoTest" />
       </profile>
     </annotationProcessing>
   </component>
