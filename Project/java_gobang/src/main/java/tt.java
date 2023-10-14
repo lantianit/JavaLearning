@@ -8,5 +8,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Component
 class OnlineUserManager {
-    private ConcurrentHashMap<Integer,WebSocketSession> gameHall
+    private ConcurrentHashMap<Integer,WebSocketSession> gameHall;
+
 }
