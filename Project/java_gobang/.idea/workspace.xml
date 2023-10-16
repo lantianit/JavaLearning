@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="10.14 复习项目">
+    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="10.15 复习项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/GameAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/GameAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/t.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/java_gobang/api/GameAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/java_gobang/api/GameAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/java_gobang/api/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/java_gobang/api/UserAPI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientSocket">
+    <configuration name="ClientSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientSocket" />
+      <module name="java_gobang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaGobangApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.java_gobang.JavaGobangApplication" />
       <module name="java_gobang" />
@@ -74,8 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServSocket" />
+      <module name="java_gobang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientSocket" />
+        <item itemvalue="Application.ServSocket" />
         <item itemvalue="Application.JavaGobangApplication" />
       </list>
     </recent_temporary>
@@ -117,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697286291794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10.15 复习项目">
+      <created>1697377141821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697377141821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,7 +151,8 @@
     <MESSAGE value="10.11 复习项目" />
     <MESSAGE value="10.13 复习项目" />
     <MESSAGE value="10.14 复习项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.14 复习项目" />
+    <MESSAGE value="10.15 复习项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.15 复习项目" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
