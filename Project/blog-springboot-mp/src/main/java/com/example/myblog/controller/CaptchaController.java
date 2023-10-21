@@ -40,5 +40,4 @@ public class CaptchaController {
         result.put("codekey",uuid);
         return AjaxResult.succ(result);
     }
-
 }
