@@ -8,5 +8,6 @@ import org.apache.ibatis.annotations.Param;
 public interface ArticleInfoMapper extends BaseMapper<ArticleInfo> {
     ArticleInfoVO getDetail(@Param("aid")Integer aid);
 
+
     int updateRCount(@Param("aid")Integer aid);
 }
