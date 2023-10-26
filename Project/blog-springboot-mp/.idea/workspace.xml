@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.7 博客系统——验证码功能完善">
+    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.25 学习">
+      <change afterPath="$PROJECT_DIR$/src/test/java/t.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/dao/ArticleInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/dao/ArticleInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myblog/config/ThreadPoolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696656294924</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="10.25 学习">
+      <created>1698238749222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698238749222</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +196,7 @@
     <MESSAGE value="10.4 部署项目" />
     <MESSAGE value="10.6 项目复习" />
     <MESSAGE value="10.7 博客系统——验证码功能完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.7 博客系统——验证码功能完善" />
+    <MESSAGE value="10.25 学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.25 学习" />
   </component>
 </project>
