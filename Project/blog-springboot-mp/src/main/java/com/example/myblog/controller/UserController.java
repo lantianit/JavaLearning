@@ -43,8 +43,6 @@ public class UserController {
 
     @RequestMapping("/reg")
     public AjaxResult reg(UserInfoVO userInfoVO) {
-        String s1 = "123";
-
         // 1.效验参数的正确性
         // 1.1 非空效验
         if (userInfoVO == null || !StringUtils.hasLength(userInfoVO.getLoginname()) ||
