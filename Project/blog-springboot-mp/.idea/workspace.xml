@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.28 学习">
+    <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.29 学习">
+      <change afterPath="$PROJECT_DIR$/../../JavaEE_Beginner/JavaEEBeginner/JavaEEBeginner/src/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaEE_Beginner/JavaEEBeginner/JavaEEBeginner/src/socket/UdpEchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaEE_Beginner/JavaEEBeginner/JavaEEBeginner/src/socket/UdpEchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/config/PageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/config/PageConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/t.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698488062975</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="10.29 学习">
+      <created>1698576745258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698576745258</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +220,7 @@
     <MESSAGE value="10.26 学习" />
     <MESSAGE value="10.27 学习" />
     <MESSAGE value="10.28 学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.28 学习" />
+    <MESSAGE value="10.29 学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.29 学习" />
   </component>
 </project>
