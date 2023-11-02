@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\code\classcode\allcode\java104&105\loadrunner\script\java104-105(20230219)
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ed:\code\classcode\allcode\java104&105\loadrunner\script\java104-105(20230219)\\logfile.log
+d:\code\classcode\allcode\java104&105\loadrunner\script\java104-105(20230219)\\combined_java104-105(20230219).c
+d:\code\classcode\allcode\java104&105\loadrunner\script\java104-105(20230219)\\pre_cci.c

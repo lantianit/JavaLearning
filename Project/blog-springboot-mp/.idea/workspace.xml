@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="10.29 学习">
-      <change afterPath="$PROJECT_DIR$/../../JavaEE_Beginner/JavaEEBeginner/JavaEEBeginner/src/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaEE_Beginner/JavaEEBeginner/JavaEEBeginner/src/socket/UdpEchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaEE_Beginner/JavaEEBeginner/JavaEEBeginner/src/socket/UdpEchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/config/ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +56,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.myblog.config" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.MyBlogApplication">
     <configuration name="MyBlogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.myblog.MyBlogApplication" />

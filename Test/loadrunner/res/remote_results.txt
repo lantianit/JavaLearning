@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\mamian\AppData\Local\Temp\res\localhost_1.eve

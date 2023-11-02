@@ -1,0 +1,109 @@
+Virtual User Script started at : 2023/2/19 10:27:38
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "D:\code\classcode\allcode\java104&105\loadrunner\script\java104-105(20230219)\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): Notify: Transaction "index_trans" started.
+Action.c(8): web_url("index") started  	[MsgId: MMSG-26355]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("index") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(15): Rendezvous login_rendezvous
+Action.c(17): Notify: Transaction "login_trans" started.
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_submit_form("login") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "username" =  "jojo"
+Action.c(22): Submitting form to "http://127.0.0.1:1080/cgi-bin/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
+Action.c(22): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(22): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Registered web_reg_find successful for "Text=to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+Action.c(22): web_submit_form("login") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(27): Notify: Transaction "login_trans" ended with a "Pass" status (Duration: 0.1223 Wasted Time: 0.0095).
+Action.c(29): Notify: Transaction "index_trans" ended with a "Pass" status (Duration: 0.2481 Wasted Time: 0.0655).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter username = 2 [table  = username].
+Notify: Getting new value for parameter 'username': table = 'username.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(5): Notify: Transaction "index_trans" started.
+Action.c(8): web_url("index") started  	[MsgId: MMSG-26355]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("index") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(15): Rendezvous login_rendezvous
+Action.c(17): Notify: Transaction "login_trans" started.
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_submit_form("login") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "username" =  "one"
+Action.c(22): Submitting form to "http://127.0.0.1:1080/cgi-bin/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
+Action.c(22): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(22): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Registered web_reg_find successful for "Text=to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+Action.c(22): web_submit_form("login") was successful, 5778 body bytes, 2028 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(27): Notify: Transaction "login_trans" ended with a "Pass" status (Duration: 0.1806 Wasted Time: 0.0021).
+Action.c(29): Notify: Transaction "index_trans" ended with a "Pass" status (Duration: 0.2645 Wasted Time: 0.0047).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter username = 3 [table  = username].
+Notify: Getting new value for parameter 'username': table = 'username.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(5): Notify: Transaction "index_trans" started.
+Action.c(8): web_url("index") started  	[MsgId: MMSG-26355]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("index") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(15): Rendezvous login_rendezvous
+Action.c(17): Notify: Transaction "login_trans" started.
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_submit_form("login") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "username" =  "two"
+Action.c(22): Submitting form to "http://127.0.0.1:1080/cgi-bin/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
+Action.c(22): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(22): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(22): Registered web_reg_find successful for "Text=to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+Action.c(22): web_submit_form("login") was successful, 5778 body bytes, 2029 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(27): Notify: Transaction "login_trans" ended with a "Pass" status (Duration: 0.1483 Wasted Time: 0.0019).
+Action.c(29): Notify: Transaction "index_trans" ended with a "Pass" status (Duration: 0.2271 Wasted Time: 0.0042).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

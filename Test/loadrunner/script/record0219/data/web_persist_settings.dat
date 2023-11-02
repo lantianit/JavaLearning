@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2023/02/19 03:02:35
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2023/02/19 03:04:37
+StartRecordingIsDst_2=0
+[UserHomePage]
+UserHomePage=http://www.msn.com/?pc=NMTE
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+[Security]
+UsingPersistForAuthentication=1
