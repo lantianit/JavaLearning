@@ -3,6 +3,8 @@ package com.autoTest0211;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
 public class junitTest {
 //    @BeforeEach
@@ -18,7 +20,9 @@ public class junitTest {
         System.out.println("bbbb");
     }
     void huixiang(){
-        ChromeDriver driver = new ChromeDriver();
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        EdgeDriver driver = new EdgeDriver(options);
         driver.get("https://www.baidu.com");
         String text = driver.findElement(By.cssSelector("#su")).getAttribute("value");//百度一下
         //假如这里获取到的属性值不是百度一下，而是百度两下

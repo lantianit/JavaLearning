@@ -7,6 +7,8 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import sun.reflect.misc.FieldUtil;
 
 import java.io.File;
@@ -16,17 +18,19 @@ import java.util.Set;
 public class autoTest {
     ChromeDriver driver = new ChromeDriver();
     public void baseConTrol() throws InterruptedException {
-        driver.get("https://www.baidu.com");
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        EdgeDriver driver = new EdgeDriver(options);
         ///////
         //具体的操作
 //        WebElement ele = driver.findElement(By.cssSelector("#kw"));
-//        ele.sendKeys("java104&105 yyds!!!!");
+//        ele.sendKeys(" yyds!!!!");
 
 //        driver.findElement(By.cssSelector("#kw")).sendKeys("！！、、、dddd这是一种简洁的编写方式");
 //        driver.findElement(By.cssSelector("#su")).click();
 //        Thread.sleep(3000);
 //        Thread.sleep(3000);
-//        driver.findElement(By.cssSelector("#kw")).sendKeys("Java104&105");
+//        driver.findElement(By.cssSelector("#kw")).sendKeys("");
 //        Thread.sleep(2000);
 //        //submit
 //        driver.findElement(By.cssSelector("#su")).submit();
