@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="10.15 五子棋项目复习">
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/libraries/hero_web_1_0_SNAPSHOT_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/libraries/hero_web_1_0_SNAPSHOT_default__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/pressureTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/t.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ClientSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ServSocket.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +70,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClientSocket">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClientSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientSocket" />
       <module name="java_gobang" />
@@ -80,6 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java_gobang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ServSocket" />
       <module name="java_gobang" />
@@ -89,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClientSocket" />
         <item itemvalue="Application.ServSocket" />
         <item itemvalue="Application.JavaGobangApplication" />
