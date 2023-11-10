@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="10.15 五子棋项目复习">
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/libraries/hero_web_1_0_SNAPSHOT_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/libraries/hero_web_1_0_SNAPSHOT_default__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/pressureTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/pressureTest/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="11.9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/t.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClientSocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServSocket.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697459341135</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="11.9">
+      <created>1699542653292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699542653292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,7 +173,8 @@
     <MESSAGE value="10.14 复习项目" />
     <MESSAGE value="10.15 复习项目" />
     <MESSAGE value="10.15 五子棋项目复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.15 五子棋项目复习" />
+    <MESSAGE value="11.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
