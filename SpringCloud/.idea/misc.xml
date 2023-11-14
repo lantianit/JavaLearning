@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/7-gray-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/2-nacos-discovery-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/3-nacos-discovery-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/5-spring-cloud-gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/6-spring-cloud-gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/1-nacos-configuration-center/pom.xml" />
+        <option value="$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>
