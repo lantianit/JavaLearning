@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="11.13">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/main/java/com/example/consumer/ConsumerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/main/java/com/example/consumer/config/CustomRetryer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/main/java/com/example/consumer/config/RetryerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/main/java/com/example/consumer/controller/BusinessController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/main/java/com/example/consumer/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/provider/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/provider/src/main/java/com/example/provider/ProviderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/provider/src/main/java/com/example/provider/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/provider/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/nacos-discovery-demo/provider/src/test/java/com/example/provider/ProviderApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/gateway-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/gateway-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/gateway-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/gateway-service/src/test/java/com/example/gatewayservice/GatewayServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/order-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/order-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/order-service/src/main/java/com/example/orderservice/OrderServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/order-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/order-service/src/test/java/com/example/orderservice/OrderServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/src/main/java/com/example/userservice/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/src/main/java/com/example/userservice/controller/UserLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-gateway-demo/user-service/src/test/java/com/example/userservice/UserServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/ConsumerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/config/CustomLoadBalancer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/config/CustomLoadBalancerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/config/NacosLoadBalancerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/config/RandomLoadBalancerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/controller/CallController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/java/com/example/consumer/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/provider/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/provider/src/main/java/com/example/provider/ProviderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/provider/src/main/java/com/example/provider/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/provider/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringCloud/spring-cloud-loadbalancer-demo/provider/src/test/java/com/example/provider/ProviderApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="11.13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
