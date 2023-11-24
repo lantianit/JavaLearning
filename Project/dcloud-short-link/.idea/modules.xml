@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-account/dcloud-account.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-account/dcloud-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-app/dcloud-app.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-app/dcloud-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-common/dcloud-common.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-common/dcloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-data/dcloud-data.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-data/dcloud-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-gateway/dcloud-gateway.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-gateway/dcloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-link/dcloud-link.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-link/dcloud-link.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-shop/dcloud-shop.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-shop/dcloud-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcloud-short-link/dcloud-short-link.iml" filepath="$PROJECT_DIR$/dcloud-short-link/dcloud-short-link.iml" />
+    </modules>
+  </component>
+</project>
