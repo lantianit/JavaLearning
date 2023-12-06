@@ -10,7 +10,6 @@ import org.springframework.stereotype.Controller;
 public class JavaGobangApplication {
     public static ConfigurableApplicationContext context;
 
-
     public static void main(String[] args) {
         context = SpringApplication.run(JavaGobangApplication.class, args);
     }
