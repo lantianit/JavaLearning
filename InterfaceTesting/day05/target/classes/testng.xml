@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+
+    <test name="login">
+        <classes>
+            <class name="testng.Test01Add"/>
+            <class name="testng.Test02Time"/>
+            <class name="testng.Test03Order">
+                <methods>
+                    <include name="one"/>
+                    <include name="two"/>
+                    <include name="three"/>
+                </methods>
+            </class>
+            <class name="testng.Test08Depend"/>
+        </classes>
+    </test>
+</suite>
+
