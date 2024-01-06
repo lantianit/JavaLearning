@@ -3,6 +3,7 @@ package com.example.myblog.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.example.myblog.config.ThreadPoolConfig;
 import com.example.myblog.model.ArticleInfo;
 import com.example.myblog.model.UserInfo;
 import com.example.myblog.model.vo.ArticleInfoVO;
@@ -13,6 +14,8 @@ import com.example.myblog.util.AjaxResult;
 import com.example.myblog.util.SessionUtil;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
+import org.apache.catalina.core.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +32,7 @@ import java.util.concurrent.FutureTask;
 public class ArticleController {
     @Resource
     private IArticleInfoService articleInfoService;
+
     @Resource
     private ThreadPoolTaskExecutor taskExecutor;
     @Resource
