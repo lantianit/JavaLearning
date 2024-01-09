@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="11.6 学习">
-      <change afterPath="$PROJECT_DIR$/../../Daily_Code/1.5（）.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestMyThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myblog/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myblog/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThreadTimer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThreadTimer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThreadTimer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThreadTimer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestMyThreadPool.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/src/main/java/T.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/T.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_oj/src/main/java/common/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/src/main/java/common/DBUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,27 +45,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/12109/.m2/repository/org/springframework/spring-context/6.0.10/spring-context-6.0.10.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/12109/.m2/repository/org/springframework/spring-context/6.0.10/spring-context-6.0.10.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.myblog.config" />
@@ -146,6 +141,8 @@
       <updated>1696230162619</updated>
       <workItem from="1702363688144" duration="678000" />
       <workItem from="1704443533879" duration="6644000" />
+      <workItem from="1704769495822" duration="939000" />
+      <workItem from="1704781756171" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="10.2 学习">
       <created>1696251705477</created>

@@ -1,13 +1,3 @@
-package common;
-
-import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
-
-import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
 public class DBUtil {
     // 需要封装和数据库之间的连接操作.
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/oj_database?characterEncoding=utf8&useSSL=false";
@@ -29,7 +19,12 @@ public class DBUtil {
             }
         }
         return dataSource;
-    }
+    } 
+
+
+
+
+
 
     public static Connection getConnection() throws SQLException {
         return getDataSource().getConnection();
@@ -57,5 +52,28 @@ public class DBUtil {
                 e.printStackTrace();
             }
         }
+    }
+}
+class Solution {
+    public int candy(int[] ratings) {
+        int n = ratings.length;
+        int[] left = new int[n];
+        for (int i = 0; i < n; i++) {
+            if (i > 0 && ratings[i] > ratings[i - 1]) {
+                left[i] = left[i - 1] + 1;
+            } else {
+                left[i] = 1;
+            }
+        }
+        int right = 0, ret = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            if (i < n - 1 && ratings[i] > ratings[i + 1]) {
+                right++;
+            } else {
+                right = 1;
+            }
+            ret += Math.max(left[i], right);
+        }
+        return ret;
     }
 }
