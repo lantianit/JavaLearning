@@ -13,10 +13,10 @@ public class AdminSample {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 //        AdminClient adminClient = AdminSample.adminClient();
-//        System.out.print("adminClient : " + adminClient);
-        createTopic();
+//        System.out.println("adminClient : " + adminClient);
+//        创建topic实例
+//        createTopic();
         topicLists();
-        descTopics();
     }
 
     public static void incrPartitions(int partitions) throws ExecutionException, InterruptedException {
@@ -78,7 +78,7 @@ public class AdminSample {
         ListTopicsResult listTopicsResult = adminClient.listTopics(options);
         Set<String> names = listTopicsResult.names().get();
         Collection<TopicListing> topicListings = listTopicsResult.listings().get();
-        KafkaFuture<Map<String,TopicListing>> mapkafkaFuture = listTopicsResult.namesToListings();
+//        KafkaFuture<Map<String,TopicListing>> mapkafkaFuture = listTopicsResult.namesToListings();
         //打印names
         names.stream().forEach(System.out::println);
         //印topicListings
@@ -87,18 +87,18 @@ public class AdminSample {
         });
     }
 
-    public static AdminClient adminClient() {
-        Properties properties = new Properties();
-        properties.setProperty(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG,"192.168.52.128:9092");
-        AdminClient adminClient = AdminClient.create(properties);
-        return adminClient;
-    }
-
     public static void createTopic() {
         AdminClient adminClient = adminClient();
         Short rs = 1;
         NewTopic newTopic = new NewTopic(TOPIC_NAME,1,rs);
         CreateTopicsResult topics = adminClient.createTopics(Arrays.asList(newTopic));
         System.out.println("createTopic result:" + topics);
+    }
+
+    public static AdminClient adminClient() {
+        Properties properties = new Properties();
+        properties.setProperty(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG,"192.168.52.129:9092");
+        AdminClient adminClient = AdminClient.create(properties);
+        return adminClient;
     }
 }
