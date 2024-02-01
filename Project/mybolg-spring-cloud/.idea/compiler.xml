@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comment-service" />
+        <module name="user-service" />
+        <module name="common" />
+        <module name="web" />
+        <module name="gateway" />
+        <module name="article-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gataway" target="17" />
+      <module name="myblog-spring-cloud" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

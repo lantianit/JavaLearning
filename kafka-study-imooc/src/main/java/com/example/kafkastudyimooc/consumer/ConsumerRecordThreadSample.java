@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class ConsumerRecordThreadSample {
-    private final static String TOPIC_NAME = "jiangzh-topic";
+    private final static String TOPIC_NAME = "zh";
 
     public static void main(String[] args) throws InterruptedException {
         String brokerList = "192.168.220.128:9092";

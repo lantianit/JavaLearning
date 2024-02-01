@@ -51,6 +51,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
         // JWT 效验 token 是否有效
         boolean result = false;
         try {
+            // token的验证
             result = JWTUtil.verify(token, AppVariable.JWT_KEY.getBytes());
         } catch (Exception e) {
             result = false;

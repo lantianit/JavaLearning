@@ -17,6 +17,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class ConsumerThreadSample {
     private final static String TOPIC_NAME="zh";
 
+    /*
+    *
+    * 每一个线程创建一个Kafkaconsumer
+    * */
+
     public static void main(String[] args) throws InterruptedException {
         KafkaConsumerRunner r1 = new KafkaConsumerRunner();
         Thread t1 = new Thread(r1);

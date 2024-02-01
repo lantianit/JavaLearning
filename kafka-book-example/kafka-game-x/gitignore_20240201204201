@@ -1,0 +1,32 @@
+**/target
+*.classpath
+*.project
+*.settings/
+*.class
+/logs/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+*.fatjar
+*.db
+.tern-project
+.gitignore
+*.out
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+*.checkstyle
+/target/
+.svn/*
+**/.svn/*
+/target/
+
+# logs
+**/logs
+
+# idea
+*.iml
+**/**/*.iml
