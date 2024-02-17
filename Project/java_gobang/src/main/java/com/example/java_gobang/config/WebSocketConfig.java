@@ -9,10 +9,9 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 import org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor;
-
 @Configuration
 @EnableWebSocket
-public class WebSocketConfig implements WebSocketConfigurer {
+public class WebSocketConfig implements  WebSocketConfigurer {
     @Autowired
     private TestAPI testAPI;
 
@@ -24,10 +23,10 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry webSocketHandlerRegistry) {
-        webSocketHandlerRegistry.addHandler(testAPI, "/test");
-        webSocketHandlerRegistry.addHandler(matchAPI, "/findMatch")
+        webSocketHandlerRegistry.addHandler(testAPI,"/test");
+        webSocketHandlerRegistry.addHandler(matchAPI,"/findMatch")
                 .addInterceptors(new HttpSessionHandshakeInterceptor());
-        webSocketHandlerRegistry.addHandler(gameAPI, "/game")
+        webSocketHandlerRegistry.addHandler(gameAPI,"/game")
                 .addInterceptors(new HttpSessionHandshakeInterceptor());
     }
 }

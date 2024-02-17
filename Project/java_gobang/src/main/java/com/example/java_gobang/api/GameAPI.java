@@ -55,8 +55,6 @@ public class GameAPI extends TextWebSocketHandler {
         //    前面准备了一个 OnlineUserManager
         if (onlineUserManager.getFromGameHall(user.getUserId()) != null
                 || onlineUserManager.getFromGameRoom(user.getUserId()) != null) {
-            String s = "123";
-            System.out.println(s.charAt(2));
             // 如果一个账号, 一边是在游戏大厅, 一边是在游戏房间, 也视为多开~~
             resp.setOk(true);
             resp.setReason("禁止多开游戏页面");

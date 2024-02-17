@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="689f8145-75bd-4fdf-8a88-5fb2dc616f82" name="Changes" comment="11.19">
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-springboot-mp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-springboot-mp/src/main/java/TestMyThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/src/main/java/common/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/src/main/java/common/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_gobang.7z" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/GameAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/GameAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/api/UserAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_gobang/config/WebSocketConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +124,7 @@
       <workItem from="1701852051242" duration="492000" />
       <workItem from="1704438171376" duration="1972000" />
       <workItem from="1704778960474" duration="888000" />
+      <workItem from="1706959748167" duration="4345000" />
     </task>
     <task id="LOCAL-00001" summary="10.8 完善项目">
       <created>1696768988184</created>
