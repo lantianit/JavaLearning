@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933e2ec0-57cb-4da9-83a9-bd669723395b" name="Changes" comment="11.6 学习">
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/Study.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestMyThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_gobang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_gobang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_gobang/src/main/java/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_oj/src/main/java/common/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_oj/src/main/java/common/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis/redis-tuling" beforeDir="false" afterPath="$PROJECT_DIR$/../../redis/redis-tuling" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/12109/.m2/repository/org/springframework/spring-context/6.0.10/spring-context-6.0.10.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/application/gitee/JavaLearning/Project/blog-springboot-mp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -143,6 +138,8 @@
       <workItem from="1704443533879" duration="6644000" />
       <workItem from="1704769495822" duration="939000" />
       <workItem from="1704781756171" duration="712000" />
+      <workItem from="1708756459897" duration="68000" />
+      <workItem from="1708757594187" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="10.2 学习">
       <created>1696251705477</created>
