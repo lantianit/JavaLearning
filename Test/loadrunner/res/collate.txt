@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=D:\code\classcode\allcode\java104&105\loadrunner\script\java104-105(20230219)\res\Scenario1.lrs
+Completed=0

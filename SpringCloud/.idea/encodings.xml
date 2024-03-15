@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/1-nacos-configuration-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1-nacos-configuration-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-nacos-discovery-demo/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-nacos-discovery-demo/consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-nacos-discovery-demo/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-nacos-discovery-demo/provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-nacos-discovery-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-nacos-discovery-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-nacos-discovery-demo/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-nacos-discovery-demo/consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-nacos-discovery-demo/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-nacos-discovery-demo/provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-nacos-discovery-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-nacos-discovery-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-spring-cloud-loadbalancer-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-spring-cloud-gateway-demo/gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-spring-cloud-gateway-demo/gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-spring-cloud-gateway-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-spring-cloud-gateway-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-spring-cloud-gateway-demo/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-spring-cloud-gateway-demo/user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-spring-cloud-gateway-demo/user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/gray-loadbalancer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/gray-loadbalancer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/log-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/log-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/new-log-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/new-log-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/new-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/new-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-gray-demo/user-service/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
