@@ -1,5 +1,0 @@
-Action()
-{
-	
-	return 0;
-}
