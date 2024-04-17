@@ -12,7 +12,7 @@ import java.util.Scanner;
 /*
  * 通过这个类, 来针对硬盘上的消息进行管理
  */
-public class MessageFileManager2 {
+public class MessageFileManager {
     // 定义一个内部类, 来表示该队列的统计信息
     // 有限考虑使用 static, 静态内部类.
     static public class Stat {
