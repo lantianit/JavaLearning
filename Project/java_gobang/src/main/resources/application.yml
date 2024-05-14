@@ -13,4 +13,4 @@ logging:
     console: "[%-5level] - %msg%n"
 
 server:
-  port: 8005
+    port: 8005
