@@ -162,7 +162,7 @@ public class MemoryDataCenter {
     public int getMessageCount(String queueName) {
         LinkedList<Message> messages = queueMessageMap.get(queueName);
         if (messages == null) {
-            // 队列中没有消息
+            // 队列中没有消息  
             return 0;
         }
         synchronized (messages) {

@@ -23,6 +23,8 @@ public class UserAPI {
             System.out.println("登录失败");
             return new User();
         }
+//        HttpSession httpSession = req.getSession(true);
+//        httpSession.setAttribute("user",user);
         HttpSession httpSession = req.getSession(true);
         httpSession.setAttribute("user",user);
         return user;

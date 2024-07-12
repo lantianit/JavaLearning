@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 // 通过这个类封装了针对 Problem 的增删改查.
-// 1. 新增题目
+    // 1. 新增题目
 // 2. 删除题目
 // 3. 查询题目列表
 // 4. 查询题目详情
-public class ProblemDAO {
+    public class ProblemDAO {
 
     public void insert(Problem problem) {
         Connection connection = null;

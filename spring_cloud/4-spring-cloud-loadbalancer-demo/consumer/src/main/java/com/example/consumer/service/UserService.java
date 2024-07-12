@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Service
 @FeignClient("loadbalancer-service")
-//// 设置局部负载均衡策略
-//@LoadBalancerClient(name = "loadbalancer-service",
-//        configuration = CustomLoadBalancerConfig.class)
+// 设置局部负载均衡策略
+@LoadBalancerClient(name = "loadbalancer-service",
+        configuration = RandomLoadBalancerConfig.class)
 public interface UserService {
     @RequestMapping("/user/getname")
     String getName(@RequestParam("id") Integer id);

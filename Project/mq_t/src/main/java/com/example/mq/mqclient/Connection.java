@@ -1,7 +1,6 @@
 package com.example.mq.mqclient;
 
 import com.example.mq.common.*;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
 import java.io.*;
 import java.net.Socket;
