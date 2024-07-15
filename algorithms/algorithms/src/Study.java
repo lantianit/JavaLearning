@@ -1,15 +1,14 @@
-import java.lang.runtime.ObjectMethods;
-import java.util.HashMap;
-import java.util.Map;
-
-public class Study {
-
+class TestException {
     public static void main(String[] args) {
-        Map<Integer, String> map = new HashMap<>();
-        map.put(1,"123");
-        map.put(2,"qwe");
-        System.out.println(map);
-        
+        int[] nums = {1,2,3};
+        try {
+            System.out.println(nums[4]);
+            System.out.println("出现异常hou的代码");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("finally里的代码");
+        }
+        System.out.println("出现异常后的代码");
     }
-    
 }

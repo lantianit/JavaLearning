@@ -11,3 +11,13 @@ kaptcha:
       session:
         key: KAPTCHA_SESSION_KEY
         date: KAPTCHA_SESSION_DATE
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+
+student:
+  s:
+    k1: zhangsan
+    k2: lisi
+  

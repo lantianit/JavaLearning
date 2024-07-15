@@ -19,9 +19,9 @@ public class UserController {
     public String getNameById(Integer id) throws InterruptedException {
         System.out.println("-------------------- Do Provider getNameById method."
                 + LocalDateTime.now());
-        Thread.sleep(1500);
+//        Thread.sleep(1500);
         return "provider-name-" + id +
                 " | port:" + context.getWebServer().getPort();
     }
-
 }
+

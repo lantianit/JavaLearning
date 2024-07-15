@@ -1,23 +1,22 @@
-package com.example.consumer.config;
+import java.util.*;
+
+class Main {
+
+    static int N = (int)3e5+10;
+    static ArrayList<Integer> indexs = new ArrayList<>();
+    static Map<Integer,Integer> adds = new HashMap<>();
+    static int[] sums = new int[N];
+
+    public static void main(String[] args) {
+
+        Map<String, String> map = new HashMap<String, String>();
+        for (int i = 0; i < map.size(); i++) {
+            String key = keySet.get(i);
+            String Value = map.get(key);
+            System.out.println("Key = " + key + ", Value = " + value);
+        }
 
 
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.loadbalancer.core.RandomLoadBalancer;
-import org.springframework.cloud.loadbalancer.core.ReactorLoadBalancer;
-import org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer;
-import org.springframework.cloud.loadbalancer.core.ServiceInstanceListSupplier;
-import org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory;
-import org.springframework.context.annotation.Bean;
-import org.springframework.core.env.Environment;
-
-public class RandomLoadBalancerConfig {
-    @Bean
-    public ReactorLoadBalancer<ServiceInstance> randomLoadBalancer(
-            Environment environment, LoadBalancerClientFactory loadBalancerClientFactory) {
-        String name = environment.getProperty("loadbalancer.client.name");
-        return new RandomLoadBalancer(
-                loadBalancerClientFactory.getLazyProvider(name,
-                        ServiceInstanceListSupplier.class), name);
     }
+
 }
